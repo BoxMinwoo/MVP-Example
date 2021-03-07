@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@drawable/line_bottom"
+        android:gravity="center"
+        android:text="곽민우가 가진 스킬 셋" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_skill_set"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="곽민우의 스킬 셋을 가져옵니다."
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_weight="1.8">
+
+        </TextView>
+
+        <Button기
+            android:id="@+id/btn_update_skill_set"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="내 정보 불러오기"
+            android:layout_weight="0.2"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
