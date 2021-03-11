@@ -9,7 +9,7 @@
 - MVP패턴은 View와 Presenter 간 1:1 관계입니다.  
 - 파일명을 [xxx]Activity.kt, [xxx]Presenter.kt, [xxxImpl].kt 라고 지어서 구분하기 쉽게 했습니다.
 - 만약 소개하는 페이지를 만든다면, IntroActivity.kt, IntroPresenter.kt, IntroImpl.kt 라고 짓는 방법입니다.
-- 본 소스에서는 MainActivity.kt, MainPresenter, MainImpl로 이름을 지었습니다.
+- 본 소스에서는 MainActivity.kt, MainPresenter.kt, MainImpl.kt로 이름을 지었습니다.
 
 
 ### MainImpl.kt
