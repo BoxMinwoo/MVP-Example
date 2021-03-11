@@ -25,9 +25,9 @@ interface MainImpl {
 }
 ```
 - View와 Presenter가 구현할 interface를 준비해놓습니다.
-- Activity가 MainImpl.View를 구현할 것입니다.  
-- Presenter가 MainImpl.Presenter를 구현할 것입니다.  
-- Impl이 아닌, Contract라는 단어도 사용 합니다. -> ex) MainContract.kt  
+- MainActivity가 MainImpl.View를 구현할 것입니다.  
+- MainPresenter가 MainImpl.Presenter를 구현할 것입니다.  
+- Impl이 아닌, Contract라는 단어도 사용 합니다. -> ex) MainImpl.kt -> MainContract.kt  
 
 ### MainActivity.kt  
 ```python
@@ -56,7 +56,6 @@ class MainActivity : AppCompatActivity(), MainImpl.View {
 ```
 - Activiy는 View의 역할을 하기위해, View interface를 상속받아 UI로직을 구현합니다.  
 - View interface에 Presenter가 호출할 UI변경 로직을 준비해놓습니다. ->showSkillSet()  
-- 
 
 ### MainPresenter.kt
 
