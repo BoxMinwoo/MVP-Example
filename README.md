@@ -1,11 +1,11 @@
 ## MVP-Example
 - 안드로이드 MVP Pattern 를 이해하기 위한 샘플 프로그램입니다.
 - 최대한 MVP Pattern을 이해하기 위한 소스만으로 작성하였습니다.
-- 코틀린으로 작성되었습니다.  
+- 코틀린으로 작성되었습니다. 
 ![image](https://user-images.githubusercontent.com/72640840/110723517-892b1600-8257-11eb-886e-5a07cbf99ef5.png)
 ***
 ### 소스 설명
-
+- Model, View, Presenter의 약자입니다.
 - MVP패턴은 View와 Presenter 간 1:1 관계입니다.  
 - 파일명을 [xxx]Activity.kt, [xxx]Presenter, [xxxImpl] 이라고 지어서 구분하기 쉽게 했습니다.
 - 만약 소개하는 페이지를 만든다면, IntroActivity.kt, IntroPresenter.kt, IntroImpl.kt 라고 짓는 방법입니다.
