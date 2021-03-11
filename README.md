@@ -1,7 +1,8 @@
 ## MVP-Example
 - 안드로이드 MVP Pattern 를 이해하기 위한 샘플 프로그램입니다.
 - 최대한 MVP Pattern을 이해하기 위한 소스만으로 작성하였습니다.
-- 코틀린으로 작성되었습니다.
+- 코틀린으로 작성되었습니다.  
+![image](https://user-images.githubusercontent.com/72640840/110723517-892b1600-8257-11eb-886e-5a07cbf99ef5.png)
 ***
 ### 소스 설명
 
@@ -56,7 +57,6 @@ class MainActivity : AppCompatActivity(), MainImpl.View {
 - Activiy는 View의 역할을 하기위해, View interface를 상속받아 UI로직을 구현합니다.  
 - View interface에 Presenter가 호출할 UI변경 로직을 준비해놓습니다. ->showSkillSet()  
 - 
-![image](https://user-images.githubusercontent.com/72640840/110723517-892b1600-8257-11eb-886e-5a07cbf99ef5.png)
 
 ### MainPresenter.kt
 
@@ -84,7 +84,6 @@ class MainPresenter : MainImpl.Presenter {
 
 
 ***
-
 
 ![image](https://user-images.githubusercontent.com/72640840/110723543-9516d800-8257-11eb-9fd1-bd8df166e81c.png)
 
